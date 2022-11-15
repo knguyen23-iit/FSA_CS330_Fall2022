@@ -16,7 +16,7 @@ Step 2: Open Command Prompt on your machine with Windows
 
 Step 3: Run tests
 
-          Using "cd *filepath" to change the directory to the files that were cloned onto your machine
+          Using "cd /d *filepath" to change the directory to the files that were cloned onto your machine
 
           Enter "coverage run FSA_demo_0.py" to run the FSA class
 
