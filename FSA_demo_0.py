@@ -68,18 +68,7 @@ class Lock:
             count+=1
         return count
     
-    def run_count(self):
-        count = 0
-        i = 0
-        while self.state==0 and i!=-1:
-            i = input("Enter your value (-1 to stop): ")
-            if i==-1:
-                break
-            self.entry(i)
-            print(self.lock[0],self.lock[1],
-                  self.lock[2],self.lock[3],self.lock[4],self.lock[5])
-            count+=1
-        return count
+    
     
 
             
