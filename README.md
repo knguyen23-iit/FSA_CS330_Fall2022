@@ -23,3 +23,11 @@ Step 3: Run tests
           Enter "coverage run test_FSA_demo_0.py" to run the unit tests
 
           Enter "coverage report -m" for it to produce a coverage report
+
+Executable 1: 
+          Enter "coverage run FSA_interactive_0.py" to run the executable
+          It will return how many seconds the intruder have to spend to break the lock by entering random numbers.
+    
+Executable 2: 
+          Enter "coverage run FSA_interactive_1.py" to run the executable
+          You can enter the number to try to lock or unlock the lock.          
