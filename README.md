@@ -30,5 +30,6 @@ Executable 1:
             It will return how many seconds the intruder have to spend to break the lock by entering random numbers.
     
 Executable 2: 
+
             Enter "coverage run FSA_interactive_1.py" to run the executable
             You can enter the number to try to lock or unlock the lock.          
