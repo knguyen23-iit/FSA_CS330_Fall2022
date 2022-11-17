@@ -25,7 +25,8 @@ def run_count():
             print('You can try to lock it if you want to?')
             count = 0 
         if state_before==1 and state_after==0:
-            print('It took you',count,'times to lock it!')
+            print('\n')
+            print('It took you',count,'entries to lock it!')
             print('The lock pad is set back to all 0')
             print('You can try to unlock it if you want to?')
             count = 0 

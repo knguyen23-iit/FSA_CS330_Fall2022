@@ -53,7 +53,10 @@ class Lock:
                 self.lock=[0]*6
             else:
                 self.lock=[0]*6
-                
+        
+        if val in [3,4,6,8,9]:
+            self.lock=[0]*6
+            
     def check_state(self):
         if self.state==0:
             return "Locked"
