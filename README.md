@@ -1,11 +1,9 @@
 # FSA by Ky Nguyen
-This is a small project demonstrating a Security Device for CS 330 - Discrete Maths at IIT. Unlock using: 525271. Lock using: 525274.
+This is a small project demonstrating a Security Device for CS 330 - Discrete Maths at IIT. 
 
-Note 1: Make sure you have Python on your machine. (Install instructions needed?)
+Unlock using: 525271. Lock using: 525274.
 
-Note 2: Make sure you have pip on your machine. (Install instructions needed?)
 
-Note 3: Make sure you have coverage.py on your machine. (Install instructions needed?)
 
 
 
@@ -14,7 +12,13 @@ Step 1: Clone this repository to your machine
 
 Step 2: Open Command Prompt on your machine with Windows
 
-Step 3: Run tests
+Step 3: Run tests and producing coverage report:
+
+          Installing pip by enter "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py"
+    
+          Then enter this "python get-pip.py"
+          
+          Then install coverage.py by entering: "pip install coverage"
 
           Using "cd /d *filepath" to change the directory to the files that were cloned onto your machine
 
@@ -27,7 +31,7 @@ Step 3: Run tests
 Executable 1: 
           
             Enter "coverage run FSA_interactive_0.py" to run the executable
-            It will return how many seconds the intruder have to spend to break the lock by entering random numbers.
+            It will return how many entries the intruder have to enter to break the lock by entering random numbers.
     
 Executable 2: 
 
