@@ -14,9 +14,11 @@ Step 2: Open Command Prompt on your machine with Windows
 
 Step 3: Run tests and producing coverage report:
 
-          Installing pip by enter "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py"
+          Installing pip by enter:
+          curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     
-          Then enter this "python get-pip.py"
+          Then enter this:
+          python get-pip.py
           
           Then install coverage.py by entering: "pip install coverage"
 
