@@ -3,6 +3,9 @@ This is a small project demonstrating a Security Device for CS 330 - Discrete Ma
 
 Unlock using: 525271. Lock using: 525274.
 
+Memo
+https://docs.google.com/document/d/1GzB3nBvCiPoegJh24-iUGxEkmPal3eC5/edit?usp=share_link&ouid=114112051612984113677&rtpof=true&sd=true
+
 
 
 
