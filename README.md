@@ -6,19 +6,26 @@ Unlock using: 525271. Lock using: 525274.
 Memo
 https://docs.google.com/document/d/1GzB3nBvCiPoegJh24-iUGxEkmPal3eC5/edit?usp=share_link&ouid=114112051612984113677&rtpof=true&sd=true
 
-
-
-
-
 Step 1: Clone this repository to your machine
-      https://github.com/knguyen23-iit/FSA_CS330_Fall2022.git
+      
+            https://github.com/knguyen23-iit/FSA_CS330_Fall2022.git
+
 
 Step 2: Open Command Prompt on your machine with Windows
+Step 3: Install pip      
+      Enter this in Command Prompt
+      
+      curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+      python get-pip.py
 
-Step 3: Run tests and producing coverage report:
 
-          Installing pip by enter:
-          curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+Step 3: Setup "coverage.py" for unit test coverage report
+
+A. Installing pip:
+      Enter this in Command Prompt
+      curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+      
+      
     
           Then enter this:
           python get-pip.py
