@@ -1,10 +1,13 @@
 # FSA by Ky Nguyen
-This is a small project demonstrating a Security Device for CS 330 - Discrete Maths at IIT. 
+This is a small project demonstrating a FSM-based Security Device for CS 330 - Discrete Maths at IIT. 
 
 Unlock using: 525271. Lock using: 525274.
 
 Memo
-https://docs.google.com/document/d/1GzB3nBvCiPoegJh24-iUGxEkmPal3eC5/edit?usp=share_link&ouid=114112051612984113677&rtpof=true&sd=true
+
+      https://docs.google.com/document/d/1GzB3nBvCiPoegJh24-iUGxEkmPal3eC5/edit?usp=share_link&ouid=114112051612984113677&rtpof=true&sd=true
+
+
 
 Step 1: Clone this repository to your machine
       
@@ -12,40 +15,54 @@ Step 1: Clone this repository to your machine
 
 
 Step 2: Open Command Prompt on your machine with Windows
+
 Step 3: Install pip      
       Enter this in Command Prompt
       
       curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+      
       python get-pip.py
 
 
-Step 3: Setup "coverage.py" for unit test coverage report
-
-A. Installing pip:
-      Enter this in Command Prompt
-      curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+Step 4: Install "coverage.py" for unit test coverage report
       
+Enter this in Command Prompt to install "coverage.py" :
+            
+     pip install coverage
       
-    
-          Then enter this:
-          python get-pip.py
+
+Step 5: Run  the files
+
+a. Change directory to the files that were cloned to your machine
+      
+      cd /d *filepath
+      
+
+b. Run the executables
+   
+   This is the class for the Security Device:
+   
+      coverage run FSA_demo_0.py
+      
+   This is for the unit tests:
+      
+      coverage run test_FSA_demo_0.py
+   
+   Then run this to generate coverage report:
+       
+      coverage report -m
+      
+
+Step 6: Try out the interactive executables
+
+Interactive Executable 1: 
+It will return how many entries the intruder have to enter to break the lock by entering uniformly distributed random numbers.
           
-          Then install coverage.py by entering: "pip install coverage"
-
-          Using "cd /d *filepath" to change the directory to the files that were cloned onto your machine
-
-          Enter "coverage run FSA_demo_0.py" to run the FSA class
-
-          Enter "coverage run test_FSA_demo_0.py" to run the unit tests
-
-          Enter "coverage report -m" for it to produce a coverage report
-
-Executable 1: 
-          
-            Enter "coverage run FSA_interactive_0.py" to run the executable
-            It will return how many entries the intruder have to enter to break the lock by entering random numbers.
+      coverage run FSA_interactive_0.py
+            
     
-Executable 2: 
+Interactive Executable 2: 
+You can enter the number to try to lock or unlock the Security Device. 
 
-            Enter "coverage run FSA_interactive_1.py" to run the executable
-            You can enter the number to try to lock or unlock the lock.          
+     coverage run FSA_interactive_1.py
+                     
