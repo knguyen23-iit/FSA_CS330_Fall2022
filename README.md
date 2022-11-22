@@ -11,7 +11,7 @@ Memo
 
 Step 1: Clone this repository to your machine
       
-            https://github.com/knguyen23-iit/FSA_CS330_Fall2022.git
+            https://github.com/knguyen23-iit/FSM_KyNguyen.git
 
 
 Step 2: Open Command Prompt on your machine with Windows
@@ -42,11 +42,11 @@ b. Run the executables
    
    This is the class for the Security Device:
    
-      coverage run FSA_demo_0.py
+      coverage run FSM_demo_0.py
       
    This is for the unit tests:
       
-      coverage run test_FSA_demo_0.py
+      coverage run test_FSM_demo_0.py
    
    Then run this to generate coverage report:
        
@@ -58,11 +58,11 @@ Step 6: Try out the interactive executables
 Interactive Executable 1: 
 It will return how many entries the intruder have to enter to break the lock by entering uniformly distributed random numbers.
           
-      coverage run FSA_interactive_0.py
+      coverage run FSM_interactive_0.py
             
     
 Interactive Executable 2: 
 You can enter the number to try to lock or unlock the Security Device. 
 
-     coverage run FSA_interactive_1.py
+     coverage run FSM_interactive_1.py
                      
