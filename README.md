@@ -5,8 +5,7 @@ Unlock using: 525271. Lock using: 525274.
 
 Memo
 
-      https://docs.google.com/document/d/1GzB3nBvCiPoegJh24-iUGxEkmPal3eC5/edit?usp=share_link&ouid=114112051612984113677&rtpof=true&sd=true
-
+https://docs.google.com/document/d/17P6i2FwTY5kxJbMMcuM6IMwVDW_sLh1l/edit?usp=share_link&ouid=114112051612984113677&rtpof=true&sd=true
 
 
 Step 1: Clone this repository to your machine
