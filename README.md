@@ -1,4 +1,4 @@
-# FSA by Ky Nguyen
+# FSM Security Device by Ky Nguyen
 This is a small project demonstrating a FSM-based Security Device for CS 330 - Discrete Maths at IIT. 
 
 Unlock using: 525271. Lock using: 525274.
