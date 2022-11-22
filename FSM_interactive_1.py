@@ -1,4 +1,4 @@
-from FSA_demo_0 import Lock
+from FSM_demo_0 import Lock
 import random
 
 
