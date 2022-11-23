@@ -1,5 +1,20 @@
 # FSM Security Device by Ky Nguyen
-This is a small project demonstrating a FSM-based Security Device for CS 330 - Discrete Maths at IIT. 
+This is a small project demonstrating a FSM-based Security Device for CS 330 - Discrete Maths at IIT.
+
+
+
+This Project was written using Python. It has only been tested on Windows.
+
+
+Description for each files:
+
+The class for the Security Device is in: FSM_demo_0.py
+
+The unit tests for the Security Device is in: test_FSM_demo_0.py
+
+The program to test how many times it takes the intruder to break the lock is in: FSM_interactive_0.py
+
+The program for you to use the Security Device is: FSM_interactive_1.py
 
 Unlock using: 525271. Lock using: 525274.
 
@@ -10,13 +25,13 @@ https://docs.google.com/document/d/17P6i2FwTY5kxJbMMcuM6IMwVDW_sLh1l/edit?usp=sh
 
 Step 1: Clone this repository to your machine
       
-            https://github.com/knguyen23-iit/FSM_KyNguyen.git
+      https://github.com/knguyen23-iit/FSM_KyNguyen.git
 
 
 Step 2: Open Command Prompt on your machine with Windows
 
 Step 3: Install pip      
-      Enter this in Command Prompt
+      Enter these in Command Prompt:
       
       curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
       
