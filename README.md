@@ -20,7 +20,8 @@ Unlock using: 525271. Lock using: 525274.
 
 Memo
 
-https://docs.google.com/document/d/1emkaJPMys3H575JyT2wovlKwM9Y3CF5-rMvClCwFX74/edit?usp=sharing
+https://drive.google.com/file/d/1ByPDu5WmlMwzZ7HbZj7Sh936hom3OVmJ/view?usp=sharing
+
 
 Step 1: Clone this repository to your machine
       
